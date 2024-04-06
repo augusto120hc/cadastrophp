@@ -1,0 +1,109 @@
+*{
+  font-family: sans-serif;
+}
+.btncadastro a{
+  text-decoration: none;
+  color: #fff;
+}
+.btncadastro{
+  padding: 10px;
+  border: none;
+  background-color: rgb(30, 72, 255);
+  border-radius: 5%;
+  color: #fff;
+}
+.tabela {
+  border-collapse: collapse;
+  width: 60%;
+}
+.tabela th {
+  background-color: #f2f2f2;
+}
+.tabela th, .tabela td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+#search-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.form-pesquisa input:focus{
+  border-color: #4596ec; /* Cor da borda quando o input está focado */
+  box-shadow: 0 0 0 0.1rem rgba(53, 135, 223, 0.25); 
+  outline: none; 
+}
+
+input[type="search"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+
+}
+.input-edit{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 40%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+.salvar{
+  cursor: pointer;
+  color: #fff;
+  background-color: #4596ec;
+}
+.salvar:hover{
+  background-color: #0056b3;
+}
+.btn-voltar{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin: 5% 5%;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-voltar:hover{
+  background-color: #7c98b6;
+}
+.form-edit{
+  margin-left: 5%;
+}
+
+button {
+  padding: 11px 21px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  margin-left: -5px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.btnvoltar{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #ff8000;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.editar{
+  text-decoration: none; /* Remover sublinhado padrão */
+  color: #007bff; /* Cor do texto */
+  margin-right: 10px; /* Espaçamento entre os links */
+}
+.excluir{
+  text-decoration: none;
+  color: #cf2e2e;
+}
