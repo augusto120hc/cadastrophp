@@ -1,20 +1,12 @@
 *{
   font-family: sans-serif;
 }
-.btncadastro a{
-  text-decoration: none;
-  color: #fff;
-}
-.btncadastro{
-  padding: 10px;
-  border: none;
-  background-color: rgb(30, 72, 255);
-  border-radius: 5%;
-  color: #fff;
+h2{
+  color: #024388;
 }
 .tabela {
   border-collapse: collapse;
-  width: 60%;
+  width: 80%;
 }
 .tabela th {
   background-color: #f2f2f2;
@@ -47,7 +39,14 @@ input[type="search"] {
   border-radius: 5px;
   width: 40%;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
+}
+.input-sub{
+  background-color: #319241;
+  color: #fff;
+}
+.input-sub:hover{
+  background-color: #185f24;
 }
 .salvar{
   cursor: pointer;
@@ -91,6 +90,14 @@ button {
   border-radius: 5px;
   background-color: #ff8000;
 }
+.btnvoltarcad{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #0056b3;
+}
+.btnvoltarcad:hover{
+  background-color: #024388;
+}
 button a {
   text-decoration: none;
   color: #fff;
@@ -106,4 +113,36 @@ button:hover {
 .excluir{
   text-decoration: none;
   color: #cf2e2e;
+}
+/* tela cadastro */
+.btncadastro a{
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+}
+.btncadastro{
+  padding: 10px;
+  border: none;
+ margin: 10px;
+  background-color: rgb(30, 72, 255);
+  border-radius: 5%;
+  color: #fff;
+}
+.index{
+  margin: 10px;
+  background-color: #8fb9e6;
+}
+.index h1, p{
+  margin: 15px;
+}
+/* Alterado com sucesso */
+.suces{
+  background-color: #3fb853;
+  padding: 10px;
+  color: #fff;
+}
+.erro{
+  background-color: #e25e4c;
+  padding: 10px;
+  color: #fff;
 }

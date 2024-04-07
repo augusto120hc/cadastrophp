@@ -12,15 +12,14 @@
 include "conexao.php";
 $id = $_GET['id'] ?? '';
 $sql = "SELECT * FROM pessoas WHERE id_pessoa = $id";
-
 $dados = mysqli_query($conexao, $sql);
-
 $linha = mysqli_fetch_assoc($dados);
 ?>
-
   <div class="container">
    <div class="form">
-    <form action="cadastro_script.php" method="POST" class="form-edit">
+<h2>Alterar Cadastro</h2>
+    
+    <form action="edit_script.php" method="POST" class="form-edit">
       <div>
       <label for="nome">Nome</label><br>
       <input class="input-edit" type="text" name="nome" id="nome" maxlength="50" required value="<?php echo $linha['nome']; ?>"><br>
@@ -48,6 +47,7 @@ $linha = mysqli_fetch_assoc($dados);
 
       <div class="">
       <input class="input-edit salvar" type="submit" value="Salvar Alterações"></input>
+      <input type="hidden" name="id" value="<?php echo $linha['id_pessoa']; ?>">
       </div><br>
       
       

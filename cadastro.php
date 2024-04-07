@@ -8,41 +8,42 @@
 </head>
 <body>
   <div class="container">
+    <h2>Cadastro de pessoa</h2>
    <div class="form">
     <form action="cadastro_script.php" method="POST">
       <div>
       <label for="nome">Nome</label><br>
-      <input type="text" name="nome" id="nome" maxlength="50"><br>
+      <input class="input-edit" type="text" name="nome" id="nome" maxlength="50"><br>
       </div>
 
       <div>
       <label for="endereco">Endereço</label><br>
-      <input type="text" name="endereco" id="endereco" maxlength="100"><br>
+      <input class="input-edit" type="text" name="endereco" id="endereco" maxlength="100"><br>
       </div>
 
       <div>
       <label for="telefone">Telefone</label><br>
-      <input type="text" name="telefone" id="telefone">
+      <input class="input-edit" type="text" name="telefone" id="telefone">
       </div>
 
       <div>
       <label for="email">Email</label><br>
-      <input type="email" name="email" id="email">
+      <input class="input-edit" type="email" name="email" id="email">
       </div>
 
       <div>
       <label for="nasc">Data de Nascimento</label><br>
-      <input type="date" name="nasc" id="nasc">
+      <input class="input-edit" type="date" name="nasc" id="nasc">
       </div><br>
 
       <div class="">
-      <input  type="submit"></input>
+      <input class="input-edit input-sub" type="submit"></input>
       </div><br>
       
       
     </form>
-    <a href="index.php"><button>Voltar para o Início</button></a>
-       <br>
+  
+       <button class="btnvoltarcad"><a href="index.php"> Voltar para o início</a></button>
     </div>
 
   </div>
